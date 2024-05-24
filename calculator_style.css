@@ -1,0 +1,56 @@
+.calculatorBody{
+    height: 510px;
+    width: 400px;
+    background-color: rgb(212, 220, 228);
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 3%;
+    border: 1px solid black;
+}
+.display{
+    height: 80px;
+    width: 360px;
+    background-color: black;
+    margin-left: 4%;
+}
+.display input{
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    font-size: xx-large;
+    font-style: bold;
+}
+.buttons{
+    padding-top: 15px;  
+    text-align: center;  
+}
+.buttons input{
+    height: 65px;
+    width: 89px;
+    font-style: bold;
+    font-size: 30px;
+    background-color: black; 
+    color: azure;  
+    text-align: center;
+}
+
+.buttons input:hover{
+    background-color: skyblue;
+}
+
+
+.buttons input[value="/"],
+.buttons input[value="x"],
+.buttons input[value="-"],
+.buttons input[value="+"]{
+    background-color: blueviolet;    
+}
+.buttons input[value="="]{
+    background-color: yellowgreen;
+}
+.buttons input[value="DEL"]{
+    background-color: red;
+}
+.buttons input[value="C"]:hover{
+    background-color: rgb(227, 203, 203);
+}
